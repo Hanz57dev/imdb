@@ -1,14 +1,24 @@
-import './globals.css'
+import Header from "@/components/Header";
+import "./globals.css";
 
 export const metadata = {
-  title: 'IMDB Clone',
-  description: 'The IMDB Clone website',
-}
+  title: "IMDb Clone",
+  description: "The IMDb Clone website",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {/* Header */}
+        <Header />
+
+        {/* Navbar */}
+
+        {/* SearchBox */}
+
+        {children}
+      </body>
     </html>
-  )
+  );
 }
