@@ -21,7 +21,7 @@ export default async function MoviePage({ params }) {
           }`}
           width={500}
           height={300}
-          className="rounded-lg"
+          className="rounded-lg w-auto h-auto"
           style={{ maxWidth: "100%", height: "100%" }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
