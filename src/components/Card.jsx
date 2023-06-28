@@ -20,7 +20,7 @@ export default function Card({ result }) {
         />
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
-          <h2 className="line-clamp-1 text-lg font-bold">
+          <h2 className="truncate text-lg font-bold">
             {result.title || result.name}
           </h2>
           <p className="flex items-center">
